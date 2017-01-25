@@ -249,6 +249,11 @@ Installs the php5-curl package on Debian, and ensures that curl itself is
 installed for RedHat systems, this is due to the curl libs being provided by
 php-common, which will get installed with the main php package.
 
+``php.ng.gearman``
+---------------
+
+Installs the php-gearman package.
+
 ``php.ng.fpm``
 --------------
 
@@ -367,6 +372,16 @@ Disabled on opensuse need server:php:extensions repo
 Installs the php-memcached package.
 Disabled on opensuse need server:php:extensions repo
 
+``php.ng.mongo``
+--------------------
+
+Installs the php-mongo package.
+
+``php.ng.mongodb``
+--------------------
+
+Installs the php-mongodb package.
+
 ``php.ng.mysql``
 ----------------
 
@@ -403,6 +418,11 @@ Installs the php-pspell package.
 
 Installs the php-redis package.
 Disabled on opensuse need server:php:extensions repo
+
+``php.ng.snmp``
+---------------
+
+Installs the php-snmp package.
 
 ``php.ng.soap``
 ---------------
@@ -449,3 +469,58 @@ Installs the php-xml package.
 --------------
 
 Installs the php-xsl package.
+
+``php.ng.dev``
+--------------
+
+Installs the php5-dev and build-essential package.
+
+``php.ng.gettext``
+--------------
+
+Installs the php-gettext package.
+
+``php.ng.geshi``
+--------------
+
+Installs the php-geshi package.
+
+``php.ng.mdb2``
+--------------
+
+Installs the php-mdb2 package.
+
+``php.ng.mdb2-driver-mysql``
+--------------
+
+Installs the php-mdb2-driver-mysql package.
+
+``php.ng.mdb2-driver-pgsql``
+--------------
+
+Installs the php-mdb2-driver-pgsql package.
+
+``php.ng.seclib``
+--------------
+
+Installs the php-seclib package.
+
+``php.ng.tidy``
+--------------
+
+Installs the php-tidy package.
+
+``php.ng.tcpdf``
+--------------
+
+Installs the php-tcpdf package.
+
+``php.ng.cache-lite``
+--------------
+
+Installs the php-cache-lite package.
+
+``php.ng.console-table``
+--------------
+
+Installs the php-console-table package.

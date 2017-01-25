@@ -4,7 +4,7 @@ php:
   # Use ppa instead the default repository (only Debian family)
   use_ppa: True
   # Set the ppa name (valid only if use_ppa is not none)
-  ppa_name: 'ondrej/php5'
+  ppa_name: 'ondrej/php'
   # Set the MongoDB driver version. You can specify (optionally) the driver version
   # when you add the php.mongo formula to your execution list
   mongo_version: "1.5.5"
@@ -20,9 +20,9 @@ php:
       pkgs:
         memcached: php5-memcached
         # ensures both will be installed
-        curl: 
+        curl:
           - php-common
-          - curl 
+          - curl
         # a dictionary can be used in more complex cases where you want
         # to pass forward special arguments to the pkg.installed call
         # you MUST include the name argument for this to work
@@ -99,6 +99,11 @@ php:
           # If true, the pool file will be managed, if False it will be
           # absent
           enabled: True
+
+          # Overwrite the filename for ext_pillar that doesn't allow
+          # dots in fields names.
+          filname: my_other_name.conf
+
           # arguments passed forward to file.managed or file.absent
           opts:
              replace: False
